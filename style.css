@@ -1,3 +1,29 @@
 body {
     font-family: sans-serif;
+    font-size: 20px;
+    height: 95vh;
+    width: 95;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(218, 189, 255);
+    margin: 0;
+    padding: 0;
+    text-shadow: 1px 1px 35px rgba(234, 0, 255, 0.932);
+    overflow: hidden;
+    background: black;
 }
+
+.title {
+    padding-top: 30px;
+}
+
+#snake {
+    border: rgb(140, 0, 255) 10px solid;
+    box-shadow: 0px 0px 40px rgba(204, 0, 255, 0.582);
+    border-radius: 5px;
+    width: 400px;
+    height: 400px;
+}
+
